@@ -1,0 +1,10 @@
+### Test GET request
+GET http://localhost:3000/xixihaha
+
+### Test POST request to create a user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "username": "testuser"
+}
